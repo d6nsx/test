@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 1s ease;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.counter {
+    font-size: 48px;
+    font-weight: bold;
+}
+
